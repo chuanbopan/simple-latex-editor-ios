@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C21BD7BB7191A163D245C9B /* Pods_Simple_Latex_EditorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7AF5004B2F5F881C78D7C3 /* Pods_Simple_Latex_EditorUITests.framework */; };
+		CA043D851F11573600F153F8 /* Default.tex in Resources */ = {isa = PBXBuildFile; fileRef = CA043D841F11573600F153F8 /* Default.tex */; };
 		CA536D991F1148C100163A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536D981F1148C100163A50 /* AppDelegate.swift */; };
 		CA536D9B1F1148C100163A50 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536D9A1F1148C100163A50 /* MasterViewController.swift */; };
 		CA536D9D1F1148C100163A50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536D9C1F1148C100163A50 /* DetailViewController.swift */; };
@@ -15,6 +17,8 @@
 		CA536DA51F1148C100163A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA536DA31F1148C100163A50 /* LaunchScreen.storyboard */; };
 		CA536DB01F1148C100163A50 /* Simple_Latex_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536DAF1F1148C100163A50 /* Simple_Latex_EditorTests.swift */; };
 		CA536DBB1F1148C100163A50 /* Simple_Latex_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536DBA1F1148C100163A50 /* Simple_Latex_EditorUITests.swift */; };
+		E7C5331A7DF8FC6FFC46D972 /* Pods_Simple_Latex_Editor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D37ADCD7AEA84FEFA574803 /* Pods_Simple_Latex_Editor.framework */; };
+		F19C6788090CD8D25506CFB9 /* Pods_Simple_Latex_EditorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DD2F021C2D6AD79179DF76 /* Pods_Simple_Latex_EditorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D7AF5004B2F5F881C78D7C3 /* Pods_Simple_Latex_EditorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Latex_EditorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		106581FB3F24306D72D2297B /* Pods-Simple Latex EditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Latex EditorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Latex EditorUITests/Pods-Simple Latex EditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB0BD0D19ED2659ECDAC170 /* Pods-Simple Latex Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Latex Editor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Latex Editor/Pods-Simple Latex Editor.release.xcconfig"; sourceTree = "<group>"; };
+		6D37ADCD7AEA84FEFA574803 /* Pods_Simple_Latex_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Latex_Editor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B4837AE0B709E45A7D7944 /* Pods-Simple Latex EditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Latex EditorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Latex EditorUITests/Pods-Simple Latex EditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8FD3F7BB8C394D8880FA5A /* Pods-Simple Latex Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Latex Editor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Latex Editor/Pods-Simple Latex Editor.debug.xcconfig"; sourceTree = "<group>"; };
+		C0DD2F021C2D6AD79179DF76 /* Pods_Simple_Latex_EditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Latex_EditorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA043D841F11573600F153F8 /* Default.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Default.tex; sourceTree = "<group>"; };
 		CA536D951F1148C100163A50 /* Simple Latex Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Latex Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA536D981F1148C100163A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA536D9A1F1148C100163A50 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		CA536DB61F1148C100163A50 /* Simple Latex EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Latex EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA536DBA1F1148C100163A50 /* Simple_Latex_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Latex_EditorUITests.swift; sourceTree = "<group>"; };
 		CA536DBC1F1148C100163A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D5BAA62434E7072F217BD0 /* Pods-Simple Latex EditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Latex EditorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Latex EditorTests/Pods-Simple Latex EditorTests.release.xcconfig"; sourceTree = "<group>"; };
+		F944768F145E91EB07835E24 /* Pods-Simple Latex EditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Latex EditorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Latex EditorTests/Pods-Simple Latex EditorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C5331A7DF8FC6FFC46D972 /* Pods_Simple_Latex_Editor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19C6788090CD8D25506CFB9 /* Pods_Simple_Latex_EditorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C21BD7BB7191A163D245C9B /* Pods_Simple_Latex_EditorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120365C5254C6F5353C86C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE8FD3F7BB8C394D8880FA5A /* Pods-Simple Latex Editor.debug.xcconfig */,
+				2CB0BD0D19ED2659ECDAC170 /* Pods-Simple Latex Editor.release.xcconfig */,
+				F944768F145E91EB07835E24 /* Pods-Simple Latex EditorTests.debug.xcconfig */,
+				F1D5BAA62434E7072F217BD0 /* Pods-Simple Latex EditorTests.release.xcconfig */,
+				71B4837AE0B709E45A7D7944 /* Pods-Simple Latex EditorUITests.debug.xcconfig */,
+				106581FB3F24306D72D2297B /* Pods-Simple Latex EditorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C40E6B0EF58A1C172ECE126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D37ADCD7AEA84FEFA574803 /* Pods_Simple_Latex_Editor.framework */,
+				C0DD2F021C2D6AD79179DF76 /* Pods_Simple_Latex_EditorTests.framework */,
+				0D7AF5004B2F5F881C78D7C3 /* Pods_Simple_Latex_EditorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA043D831F11571200F153F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA043D841F11573600F153F8 /* Default.tex */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CA536D8C1F1148C100163A50 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				CA536DAE1F1148C100163A50 /* Simple Latex EditorTests */,
 				CA536DB91F1148C100163A50 /* Simple Latex EditorUITests */,
 				CA536D961F1148C100163A50 /* Products */,
+				120365C5254C6F5353C86C62 /* Pods */,
+				1C40E6B0EF58A1C172ECE126 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +149,7 @@
 		CA536D971F1148C100163A50 /* Simple Latex Editor */ = {
 			isa = PBXGroup;
 			children = (
+				CA043D831F11571200F153F8 /* Resources */,
 				CA536D981F1148C100163A50 /* AppDelegate.swift */,
 				CA536D9A1F1148C100163A50 /* MasterViewController.swift */,
 				CA536D9C1F1148C100163A50 /* DetailViewController.swift */,
@@ -135,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA536DBF1F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex Editor" */;
 			buildPhases = (
+				EE91046DEAE5AE5413162C3D /* [CP] Check Pods Manifest.lock */,
 				CA536D911F1148C100163A50 /* Sources */,
 				CA536D921F1148C100163A50 /* Frameworks */,
 				CA536D931F1148C100163A50 /* Resources */,
+				532C9309226A34D3A87AE686 /* [CP] Embed Pods Frameworks */,
+				92B9500FEBED07C1D47540D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA536DC21F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorTests" */;
 			buildPhases = (
+				292610438FC69C38CC2F79B5 /* [CP] Check Pods Manifest.lock */,
 				CA536DA71F1148C100163A50 /* Sources */,
 				CA536DA81F1148C100163A50 /* Frameworks */,
 				CA536DA91F1148C100163A50 /* Resources */,
+				163F9C45E62F4824FDDCF5E9 /* [CP] Embed Pods Frameworks */,
+				9431D88A2BDA737406FE437B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA536DC51F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorUITests" */;
 			buildPhases = (
+				83FB836C7DE16F35AEF18ABE /* [CP] Check Pods Manifest.lock */,
 				CA536DB21F1148C100163A50 /* Sources */,
 				CA536DB31F1148C100163A50 /* Frameworks */,
 				CA536DB41F1148C100163A50 /* Resources */,
+				36B6E4C101595D4F442C6146 /* [CP] Embed Pods Frameworks */,
+				5F007663AB3749982ED7710D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +298,7 @@
 				CA536DA51F1148C100163A50 /* LaunchScreen.storyboard in Resources */,
 				CA536DA21F1148C100163A50 /* Assets.xcassets in Resources */,
 				CA536DA01F1148C100163A50 /* Main.storyboard in Resources */,
+				CA043D851F11573600F153F8 /* Default.tex in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163F9C45E62F4824FDDCF5E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Latex EditorTests/Pods-Simple Latex EditorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292610438FC69C38CC2F79B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36B6E4C101595D4F442C6146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Latex EditorUITests/Pods-Simple Latex EditorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532C9309226A34D3A87AE686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Latex Editor/Pods-Simple Latex Editor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F007663AB3749982ED7710D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Latex EditorUITests/Pods-Simple Latex EditorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FB836C7DE16F35AEF18ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92B9500FEBED07C1D47540D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Latex Editor/Pods-Simple Latex Editor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9431D88A2BDA737406FE437B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Latex EditorTests/Pods-Simple Latex EditorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE91046DEAE5AE5413162C3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA536D911F1148C100163A50 /* Sources */ = {
@@ -416,6 +615,7 @@
 		};
 		CA536DC01F1148C100163A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8FD3F7BB8C394D8880FA5A /* Pods-Simple Latex Editor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Simple Latex Editor/Info.plist";
@@ -428,6 +628,7 @@
 		};
 		CA536DC11F1148C100163A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB0BD0D19ED2659ECDAC170 /* Pods-Simple Latex Editor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Simple Latex Editor/Info.plist";
@@ -440,6 +641,7 @@
 		};
 		CA536DC31F1148C100163A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F944768F145E91EB07835E24 /* Pods-Simple Latex EditorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +656,7 @@
 		};
 		CA536DC41F1148C100163A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D5BAA62434E7072F217BD0 /* Pods-Simple Latex EditorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +671,7 @@
 		};
 		CA536DC61F1148C100163A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B4837AE0B709E45A7D7944 /* Pods-Simple Latex EditorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Simple Latex EditorUITests/Info.plist";
@@ -481,6 +685,7 @@
 		};
 		CA536DC71F1148C100163A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106581FB3F24306D72D2297B /* Pods-Simple Latex EditorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Simple Latex EditorUITests/Info.plist";
@@ -511,6 +716,7 @@
 				CA536DC11F1148C100163A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA536DC21F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +725,7 @@
 				CA536DC41F1148C100163A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA536DC51F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +734,7 @@
 				CA536DC71F1148C100163A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,7 +9,7 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
-
+    // views
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
 
@@ -19,8 +19,6 @@ class MasterViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         navigationItem.leftBarButtonItem = editButtonItem
 
-        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
-        navigationItem.rightBarButtonItem = addButton
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
@@ -35,12 +33,6 @@ class MasterViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    func insertNewObject(_ sender: Any) {
-        objects.insert(NSDate(), at: 0)
-        let indexPath = IndexPath(row: 0, section: 0)
-        tableView.insertRows(at: [indexPath], with: .automatic)
     }
 
     // MARK: - Segues
@@ -89,6 +81,57 @@ class MasterViewController: UITableViewController {
         }
     }
 
+    
+    // MARK: - file management
+    
+    @IBAction func createNewProject(_ sender: UIBarButtonItem) {
+        let alertController = UIAlertController(title: "Create New Project", message: "Please enter a project name", preferredStyle: .alert)
+        alertController.addTextField { (textField) in
+            textField.placeholder = "Project name"
+        }
+        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (_) in
+            if let textFields = alertController.textFields {
+                if let projectName = textFields[0].text {
+                    self.createProjectWithName(projectName)
+                    alertController.dismiss(animated: true, completion: nil)
+                }
+            }
+        }))
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func createProjectWithName(_ name: String) {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        let folderDirectory = (documentsPath as NSString).appendingPathComponent(name)
+        if FileManager.default.fileExists(atPath: folderDirectory) {
+            projectExists()
+        } else {
+            do {
+                let mainFile = (folderDirectory as NSString).appendingPathComponent("main.tex")
+                let data = try Data(contentsOf: Bundle.main.url(forResource: "Default", withExtension: "tex")!)
+                
+                try FileManager.default.createDirectory(atPath: folderDirectory, withIntermediateDirectories: true, attributes: nil)
+                
+                FileManager.default.createFile(atPath: mainFile, contents: data, attributes: nil)
+            } catch let error {
+                self.failedToCreateProject(error)
+            }
+        }
+    }
+    
+    // MARK: - Error Popups
+    
+    func projectExists() {
+        let alertController = UIAlertController(title: "Project Exists", message: "A project with the same name already exists. Please choose a different project name.", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
 
+    func failedToCreateProject(_ error: Error) {
+        let alertController = UIAlertController(title: "Failed to Create Project", message: "Error: \(error.localizedDescription)", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
 
