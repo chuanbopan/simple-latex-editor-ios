@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA536D991F1148C100163A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536D981F1148C100163A50 /* AppDelegate.swift */; };
+		CA536D9B1F1148C100163A50 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536D9A1F1148C100163A50 /* MasterViewController.swift */; };
+		CA536D9D1F1148C100163A50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536D9C1F1148C100163A50 /* DetailViewController.swift */; };
+		CA536DA01F1148C100163A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA536D9E1F1148C100163A50 /* Main.storyboard */; };
+		CA536DA21F1148C100163A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA536DA11F1148C100163A50 /* Assets.xcassets */; };
+		CA536DA51F1148C100163A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA536DA31F1148C100163A50 /* LaunchScreen.storyboard */; };
+		CA536DB01F1148C100163A50 /* Simple_Latex_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536DAF1F1148C100163A50 /* Simple_Latex_EditorTests.swift */; };
+		CA536DBB1F1148C100163A50 /* Simple_Latex_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA536DBA1F1148C100163A50 /* Simple_Latex_EditorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA536DAC1F1148C100163A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA536D8D1F1148C100163A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA536D941F1148C100163A50;
+			remoteInfo = "Simple Latex Editor";
+		};
+		CA536DB71F1148C100163A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA536D8D1F1148C100163A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA536D941F1148C100163A50;
+			remoteInfo = "Simple Latex Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA536D951F1148C100163A50 /* Simple Latex Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Latex Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA536D981F1148C100163A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA536D9A1F1148C100163A50 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CA536D9C1F1148C100163A50 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CA536D9F1F1148C100163A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA536DA11F1148C100163A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA536DA41F1148C100163A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA536DA61F1148C100163A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA536DAB1F1148C100163A50 /* Simple Latex EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Latex EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA536DAF1F1148C100163A50 /* Simple_Latex_EditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Latex_EditorTests.swift; sourceTree = "<group>"; };
+		CA536DB11F1148C100163A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA536DB61F1148C100163A50 /* Simple Latex EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Latex EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA536DBA1F1148C100163A50 /* Simple_Latex_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Latex_EditorUITests.swift; sourceTree = "<group>"; };
+		CA536DBC1F1148C100163A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA536D921F1148C100163A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA536DA81F1148C100163A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA536DB31F1148C100163A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA536D8C1F1148C100163A50 = {
+			isa = PBXGroup;
+			children = (
+				CA536D971F1148C100163A50 /* Simple Latex Editor */,
+				CA536DAE1F1148C100163A50 /* Simple Latex EditorTests */,
+				CA536DB91F1148C100163A50 /* Simple Latex EditorUITests */,
+				CA536D961F1148C100163A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA536D961F1148C100163A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA536D951F1148C100163A50 /* Simple Latex Editor.app */,
+				CA536DAB1F1148C100163A50 /* Simple Latex EditorTests.xctest */,
+				CA536DB61F1148C100163A50 /* Simple Latex EditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA536D971F1148C100163A50 /* Simple Latex Editor */ = {
+			isa = PBXGroup;
+			children = (
+				CA536D981F1148C100163A50 /* AppDelegate.swift */,
+				CA536D9A1F1148C100163A50 /* MasterViewController.swift */,
+				CA536D9C1F1148C100163A50 /* DetailViewController.swift */,
+				CA536D9E1F1148C100163A50 /* Main.storyboard */,
+				CA536DA11F1148C100163A50 /* Assets.xcassets */,
+				CA536DA31F1148C100163A50 /* LaunchScreen.storyboard */,
+				CA536DA61F1148C100163A50 /* Info.plist */,
+			);
+			path = "Simple Latex Editor";
+			sourceTree = "<group>";
+		};
+		CA536DAE1F1148C100163A50 /* Simple Latex EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA536DAF1F1148C100163A50 /* Simple_Latex_EditorTests.swift */,
+				CA536DB11F1148C100163A50 /* Info.plist */,
+			);
+			path = "Simple Latex EditorTests";
+			sourceTree = "<group>";
+		};
+		CA536DB91F1148C100163A50 /* Simple Latex EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA536DBA1F1148C100163A50 /* Simple_Latex_EditorUITests.swift */,
+				CA536DBC1F1148C100163A50 /* Info.plist */,
+			);
+			path = "Simple Latex EditorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA536D941F1148C100163A50 /* Simple Latex Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA536DBF1F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex Editor" */;
+			buildPhases = (
+				CA536D911F1148C100163A50 /* Sources */,
+				CA536D921F1148C100163A50 /* Frameworks */,
+				CA536D931F1148C100163A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Latex Editor";
+			productName = "Simple Latex Editor";
+			productReference = CA536D951F1148C100163A50 /* Simple Latex Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA536DAA1F1148C100163A50 /* Simple Latex EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA536DC21F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorTests" */;
+			buildPhases = (
+				CA536DA71F1148C100163A50 /* Sources */,
+				CA536DA81F1148C100163A50 /* Frameworks */,
+				CA536DA91F1148C100163A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA536DAD1F1148C100163A50 /* PBXTargetDependency */,
+			);
+			name = "Simple Latex EditorTests";
+			productName = "Simple Latex EditorTests";
+			productReference = CA536DAB1F1148C100163A50 /* Simple Latex EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA536DB51F1148C100163A50 /* Simple Latex EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA536DC51F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorUITests" */;
+			buildPhases = (
+				CA536DB21F1148C100163A50 /* Sources */,
+				CA536DB31F1148C100163A50 /* Frameworks */,
+				CA536DB41F1148C100163A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA536DB81F1148C100163A50 /* PBXTargetDependency */,
+			);
+			name = "Simple Latex EditorUITests";
+			productName = "Simple Latex EditorUITests";
+			productReference = CA536DB61F1148C100163A50 /* Simple Latex EditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA536D8D1F1148C100163A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chuanbo Pan";
+				TargetAttributes = {
+					CA536D941F1148C100163A50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CA536DAA1F1148C100163A50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA536D941F1148C100163A50;
+					};
+					CA536DB51F1148C100163A50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA536D941F1148C100163A50;
+					};
+				};
+			};
+			buildConfigurationList = CA536D901F1148C100163A50 /* Build configuration list for PBXProject "Simple Latex Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA536D8C1F1148C100163A50;
+			productRefGroup = CA536D961F1148C100163A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA536D941F1148C100163A50 /* Simple Latex Editor */,
+				CA536DAA1F1148C100163A50 /* Simple Latex EditorTests */,
+				CA536DB51F1148C100163A50 /* Simple Latex EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA536D931F1148C100163A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA536DA51F1148C100163A50 /* LaunchScreen.storyboard in Resources */,
+				CA536DA21F1148C100163A50 /* Assets.xcassets in Resources */,
+				CA536DA01F1148C100163A50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA536DA91F1148C100163A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA536DB41F1148C100163A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA536D911F1148C100163A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA536D9D1F1148C100163A50 /* DetailViewController.swift in Sources */,
+				CA536D9B1F1148C100163A50 /* MasterViewController.swift in Sources */,
+				CA536D991F1148C100163A50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA536DA71F1148C100163A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA536DB01F1148C100163A50 /* Simple_Latex_EditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA536DB21F1148C100163A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA536DBB1F1148C100163A50 /* Simple_Latex_EditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA536DAD1F1148C100163A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA536D941F1148C100163A50 /* Simple Latex Editor */;
+			targetProxy = CA536DAC1F1148C100163A50 /* PBXContainerItemProxy */;
+		};
+		CA536DB81F1148C100163A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA536D941F1148C100163A50 /* Simple Latex Editor */;
+			targetProxy = CA536DB71F1148C100163A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA536D9E1F1148C100163A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA536D9F1F1148C100163A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA536DA31F1148C100163A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA536DA41F1148C100163A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA536DBD1F1148C100163A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA536DBE1F1148C100163A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA536DC01F1148C100163A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Simple Latex Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "panchuanbo.Simple-Latex-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA536DC11F1148C100163A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Simple Latex Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "panchuanbo.Simple-Latex-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CA536DC31F1148C100163A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Simple Latex EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "panchuanbo.Simple-Latex-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Latex Editor.app/Simple Latex Editor";
+			};
+			name = Debug;
+		};
+		CA536DC41F1148C100163A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Simple Latex EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "panchuanbo.Simple-Latex-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Latex Editor.app/Simple Latex Editor";
+			};
+			name = Release;
+		};
+		CA536DC61F1148C100163A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Simple Latex EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "panchuanbo.Simple-Latex-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Simple Latex Editor";
+			};
+			name = Debug;
+		};
+		CA536DC71F1148C100163A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Simple Latex EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "panchuanbo.Simple-Latex-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Simple Latex Editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA536D901F1148C100163A50 /* Build configuration list for PBXProject "Simple Latex Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA536DBD1F1148C100163A50 /* Debug */,
+				CA536DBE1F1148C100163A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA536DBF1F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA536DC01F1148C100163A50 /* Debug */,
+				CA536DC11F1148C100163A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA536DC21F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA536DC31F1148C100163A50 /* Debug */,
+				CA536DC41F1148C100163A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA536DC51F1148C100163A50 /* Build configuration list for PBXNativeTarget "Simple Latex EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA536DC61F1148C100163A50 /* Debug */,
+				CA536DC71F1148C100163A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA536D8D1F1148C100163A50 /* Project object */;
+}
