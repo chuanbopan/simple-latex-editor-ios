@@ -129,7 +129,7 @@ class MasterViewController: UITableViewController {
     }
 
     func failedToCreateProject(_ error: Error) {
-        let alertController = UIAlertController(title: "Failed to Create Project", message: "Error: \(error.localizedDescription)", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Failed to Create Project", message: "Error Message: \(error.localizedDescription)", preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
         self.present(alertController, animated: true, completion: nil)
     }
